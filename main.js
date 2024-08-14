@@ -29,8 +29,6 @@ function updatePage(){
 //Create and append the options
 for (func_choice in funcsDict) {
     const option = document.createElement("option");
-    //option.value = funcsDict[func_choice];
-    //option.value = func_choice;
     option.text = func_choice;
     selectList.appendChild(option);
 }
@@ -116,8 +114,6 @@ function loadXMLDoc_withPromise() {
       xhttp.open("GET", csvURL, true);
       xhttp.send();
    });
-
-
 
    myPromise.then(
       function(value) {myDisplayer(value);},
