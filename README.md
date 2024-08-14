@@ -3,7 +3,7 @@ Experiments with JavaScript callback functions - including Timeout, Promise and 
 
 The demo can be seen running live at: https://ashishsharma71.github.io/JScallback/
 
-1. The goal here is to have a simple set of examples for demonstrating JavaScript's key features - asynchronous execution of code. 
+1. The goal here is to have a simple set of examples for demonstrating JavaScript's key features - in terms of asynchronous execution of code. 
 
 2. The example chosen here is of loading a csv file and displaying it as text. Of course, it could be any text file or any file loaded like text (be careful). 
 
